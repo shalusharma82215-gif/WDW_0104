@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Hotel Room Booking Form</h1>
+    <form action="#" method="post"> 
+        <label for="full name">Full Name:</label> 
+        <input type="text" id="full name" name="Full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="phone">Phone no.:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required><br><br>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required><br><br>
+
+        <label for="room">Room type:</label>
+        <select id="room" name="room" required>
+            <option value="">Select a room type</option>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+        </select><br><br>
+    
+        
+        <!-- no of rooms-->
+         <label for="rooms">Number of Rooms:</label>
+        <input type="number" id="rooms" name="rooms" min="1" max="10" required><br><br>
+
+        <label for="special requests">Special Requests:</label>
+        <textarea id="special requests" name="special requests" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+  
+    </form>
+    
+</body>
+</html>
